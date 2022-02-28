@@ -9,6 +9,7 @@ Currently the plugins are as follows
 3. lsp-config
 4. lsp-install
 5. lsp-cmp
+6. Nerd Commentor
 
 
  
