@@ -9,11 +9,11 @@ set autoindent
 set hlsearch
 set mouse=a
 
-" vimplug
+" vim plug
 call plug#begin("~/.vim/plugged")
 
 Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Colors
-Plug 'https://github.com/preservim/nerdtree' " NerdTree
+Plug 'https://github.com/preservim/nerdtree' " Nerd Tree
 Plug 'neovim/nvim-lspconfig'
 Plug 'https://github.com/williamboman/nvim-lsp-installer'
 
@@ -31,7 +31,8 @@ nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 
-:colorscheme jellybeans
+colorscheme jellybeans
+" setlocal spell spelllang=en_us
 syntax enable
 
 lua <<EOF
