@@ -34,7 +34,7 @@ nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 
-colorscheme jellybeans 
+colorscheme solarized8 
 " setlocal spell spelllang=en_us
 syntax enable
 
