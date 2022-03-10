@@ -29,7 +29,7 @@ git clone https://github.com/SenorBoberts/nvim-config
 mv [where it is] ~/.config/nvim
 ```
 
-3. Install Vim Plug
+3. Install Vim Plug (*works on linux versions and only for nvim*)
 
 ```bash
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
