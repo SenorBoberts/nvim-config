@@ -28,6 +28,8 @@ Plug 'hrsh7th/vim-vsnip'
 
 Plug 'preservim/nerdcommenter'
 
+Plug 'https://github.com/farmergreg/vim-lastplace'
+
 call plug#end()
 
 nnoremap <C-f> :NERDTreeFocus<CR>
