@@ -1,5 +1,7 @@
 # nvim-config
 
+### About
+
 This repository holds the configuration files for my nvim editor. At the moment its not quite that *spicy* but I hope to build on it over time
 
 Currently the plugins are as follows
@@ -10,6 +12,36 @@ Currently the plugins are as follows
 4. lsp-install
 5. lsp-cmp
 6. Nerd Commentor
+7. vim-last-place
 
+### Usage Instructions
 
- 
+1. Clone repo with 
+
+```bash
+git clone https://github.com/SenorBoberts/nvim-config
+```
+
+2. Move files to right place
+
+```bash
+mv [where it is] ~/.config/nvim
+```
+
+3. Install Vim Plug
+
+```bash
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
+
+4. Open init.vim and plug install
+
+```bash
+	nvim init.vim
+```
+```vim
+	:PlugInstall
+```
+
+5. Enjoy
