@@ -13,6 +13,7 @@ Currently the plugins are as follows
 5. lsp-cmp
 6. Nerd Commentor
 7. vim-last-place
+8. lightline
 
 ### Usage Instructions
 
