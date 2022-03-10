@@ -30,13 +30,19 @@ Plug 'preservim/nerdcommenter'
 
 Plug 'https://github.com/farmergreg/vim-lastplace'
 
+Plug 'itchyny/lightline.vim'
+
 call plug#end()
 
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 
-colorscheme jellybeans 
+let g:lightline = {
+	\ 'colorscheme' : 'darcula',
+	\ }
+
+colorscheme onedark
 " setlocal spell spelllang=en_us
 syntax enable
 
