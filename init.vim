@@ -45,7 +45,7 @@ let g:lightline = {
 	\ 'colorscheme' : 'darcula',
 	\ }
 
-colorscheme onedark
+colorscheme onedark 
 " setlocal spell spelllang=en_us
 syntax enable
 
