@@ -18,6 +18,21 @@ Currently the plugins are as follows
 
 ### Usage Instructions
 
+##### Bash Script
+
+Within the project I have included a bash script that will do most of the heavy lifting for you.
+
+Execute in the nvim-config directory with:
+
+```bash
+./install.sh
+
+```
+
+Then you just run **:PlugInstall** from within the nvim window it opens and you're done!
+
+##### Manual Installation
+
 1. Clone repo with 
 
 ```bash
