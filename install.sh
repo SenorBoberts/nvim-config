@@ -13,6 +13,8 @@ if [[ $answer = "Y" ]] ; then
 	nvim init.vim
 fi
 
+echo done
+
 
 
 
