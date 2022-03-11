@@ -14,6 +14,7 @@ Currently the plugins are as follows
 6. Nerd Commentor
 7. vim-last-place
 8. lightline
+9. auto-pairs
 
 ### Usage Instructions
 

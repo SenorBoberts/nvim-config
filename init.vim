@@ -13,10 +13,10 @@ set mouse=a
 " vim plug
 call plug#begin("~/.vim/plugged")
 
-Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Colors
-Plug 'https://github.com/preservim/nerdtree' " Nerd Tree
+Plug 'rafi/awesome-vim-colorschemes' " Colors
+Plug 'preservim/nerdtree' " Nerd Tree
 Plug 'neovim/nvim-lspconfig'
-Plug 'https://github.com/williamboman/nvim-lsp-installer'
+Plug 'williamboman/nvim-lsp-installer'
 
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
@@ -29,9 +29,11 @@ Plug 'hrsh7th/vim-vsnip'
 
 Plug 'preservim/nerdcommenter'
 
-Plug 'https://github.com/farmergreg/vim-lastplace'
+Plug 'farmergreg/vim-lastplace'
 
 Plug 'itchyny/lightline.vim'
+
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
