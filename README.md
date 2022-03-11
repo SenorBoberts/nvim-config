@@ -22,7 +22,7 @@ Currently the plugins are as follows
 
 Within the project I have included a bash script that will do most of the heavy lifting for you.
 
-Execute in the nvim-config directory with:
+After cloneing the repo execute in the nvim-config directory with:
 
 ```bash
 ./install.sh
