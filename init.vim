@@ -2,7 +2,8 @@
 set number
 set tabstop=4
 set shiftwidth=4
-set nowrap
+set wrap
+set relativenumber
 set incsearch
 set ignorecase
 set autoindent
