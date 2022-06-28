@@ -49,6 +49,8 @@ colorscheme onedark
 " setlocal spell spelllang=en_us
 syntax enable
 
+filetype plugin on 
+
 lua <<EOF
 require("lsp")
 require("com")
